@@ -69,10 +69,6 @@ const HeroSection = () => {
                       <div className="font-semibold text-qa-600">Java</div>
                       <div className="text-sm text-gray-600">Programming</div>
                     </div>
-                    <div>
-                      <div className="font-semibold text-qa-600">Frameworks</div>
-                      <div className="text-sm text-gray-600">Development</div>
-                    </div>
                   </div>
                 </div>
               </div>

@@ -14,20 +14,8 @@ const AboutSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
         <div className="lg:col-span-2 space-y-6">
           <p className="text-lg">
-            With over 7 years of experience in Quality Assurance, I specialize in developing comprehensive 
-            test automation frameworks using Selenium with Java. My expertise extends to API testing with 
-            RestAssured, ensuring end-to-end quality for complex software applications.
-          </p>
-          
-          <p className="text-lg">
-            I am passionate about implementing best practices in testing methodologies and continuously improving
-            test efficiency. My approach combines technical expertise with a deep understanding of business requirements
-            to deliver high-quality software products.
-          </p>
-
-          <p className="text-lg">
-            Currently, I'm focusing on building advanced API testing frameworks and exploring new technologies
-            to enhance test automation capabilities.
+            Test Automation Engineer with 7 years of experience in Selenium (Java) and RestAssured. 
+            Passionate about building scalable test frameworks and improving software quality.
           </p>
           
           <div className="flex flex-wrap gap-4 pt-4">
