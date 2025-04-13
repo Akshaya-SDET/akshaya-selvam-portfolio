@@ -52,9 +52,9 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" className="section-container">
-      <h2 className="section-title">Projects & Work</h2>
+      <h2 className="section-title">GitHub Projects</h2>
       <p className="section-subtitle">
-        A selection of my projects and professional work in test automation and quality assurance
+        A selection of my open-source projects and contributions on GitHub
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">

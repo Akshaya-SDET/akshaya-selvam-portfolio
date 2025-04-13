@@ -184,24 +184,6 @@ const ContactSection = () => {
               ))}
             </div>
           </div>
-
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Available For</h3>
-            <div className="grid grid-cols-2 gap-3">
-              <div className="bg-gradient-to-br from-qa-100 to-white p-4 rounded-lg border border-qa-200">
-                <h4 className="font-medium">Freelance Projects</h4>
-                <p className="text-sm text-muted-foreground mt-1">
-                  QA consulting and automation setup
-                </p>
-              </div>
-              <div className="bg-gradient-to-br from-qa-100 to-white p-4 rounded-lg border border-qa-200">
-                <h4 className="font-medium">Full-time Opportunities</h4>
-                <p className="text-sm text-muted-foreground mt-1">
-                  Senior QA Engineering roles
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
