@@ -25,7 +25,6 @@ const Navbar = () => {
     { name: 'Home', href: '#' },
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
   ];
 
   return (
@@ -60,7 +59,13 @@ const Navbar = () => {
                 className="ml-3"
                 size="sm"
               >
-                <a href="#contact">Get In Touch</a>
+                <a 
+                  href="https://www.linkedin.com/in/akshaya-selvam-382a67212/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Get In Touch
+                </a>
               </Button>
             </div>
           </div>
@@ -98,7 +103,14 @@ const Navbar = () => {
               className="w-full mt-2"
               size="sm"
             >
-              <a href="#contact" onClick={() => setIsOpen(false)}>Get In Touch</a>
+              <a 
+                href="https://www.linkedin.com/in/akshaya-selvam-382a67212/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={() => setIsOpen(false)}
+              >
+                Get In Touch
+              </a>
             </Button>
           </div>
         </div>
