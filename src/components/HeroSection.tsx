@@ -1,5 +1,6 @@
+
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -19,36 +20,17 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="gap-2">
-                <a href="#projects">
+                <a href="https://github.com/aksh0607" target="_blank" rel="noopener noreferrer">
                   View My Work
                   <Github size={18} />
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild className="gap-2">
-                <a href="#contact">
-                  Contact Me
+                <a href="https://www.linkedin.com/in/akshaya-selvam-382a67212/" target="_blank" rel="noopener noreferrer">
+                  Get In Touch
                   <Linkedin size={18} />
                 </a>
               </Button>
-            </div>
-
-            <div className="flex gap-4">
-              <a 
-                href="https://github.com/aksh0607" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-qa-600 transition-colors"
-              >
-                <Github size={24} />
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/akshaya-selvam-382a67212/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-qa-600 transition-colors"
-              >
-                <Linkedin size={24} />
-              </a>
             </div>
           </div>
 

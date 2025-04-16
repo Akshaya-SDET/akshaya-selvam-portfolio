@@ -54,19 +54,6 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <Button
-                asChild
-                className="ml-3"
-                size="sm"
-              >
-                <a 
-                  href="https://www.linkedin.com/in/akshaya-selvam-382a67212/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  Get In Touch
-                </a>
-              </Button>
             </div>
           </div>
           
@@ -98,20 +85,6 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button
-              asChild
-              className="w-full mt-2"
-              size="sm"
-            >
-              <a 
-                href="https://www.linkedin.com/in/akshaya-selvam-382a67212/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                onClick={() => setIsOpen(false)}
-              >
-                Get In Touch
-              </a>
-            </Button>
           </div>
         </div>
       )}
