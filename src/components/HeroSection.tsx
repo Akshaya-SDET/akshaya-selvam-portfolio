@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Github, Linkedin } from 'lucide-react';
 
@@ -22,11 +21,14 @@ const HeroSection = () => {
               <Button asChild size="lg" className="gap-2">
                 <a href="#projects">
                   View My Work
-                  <ArrowRight size={18} />
+                  <Github size={18} />
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild className="gap-2">
-                <a href="#contact">Contact Me</a>
+                <a href="#contact">
+                  Contact Me
+                  <Linkedin size={18} />
+                </a>
               </Button>
             </div>
 
