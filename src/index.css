@@ -92,6 +92,12 @@
     @apply border-border;
   }
   
+  html, body {
+    @apply overflow-x-hidden;
+    max-width: 100%;
+    min-height: 100vh;
+  }
+  
   body {
     @apply bg-background text-foreground font-outfit;
   }

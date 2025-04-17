@@ -49,7 +49,7 @@ const HeroSection = () => {
                       <div className="font-semibold text-qa-600">RestAssured</div>
                       <div className="text-sm text-gray-600">API Testing</div>
                     </div>
-                    <div>
+                    <div className="col-span-2 mx-auto">
                       <div className="font-semibold text-qa-600">Java</div>
                       <div className="text-sm text-gray-600">Programming</div>
                     </div>
