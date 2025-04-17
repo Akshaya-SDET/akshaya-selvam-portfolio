@@ -34,7 +34,7 @@ const Navbar = () => {
         // Create an anchor element and set properties
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'Akshaya_Selvam_Resume.png';
+        link.download = 'AkshayaSelvam_Resume.pdf';
         
         // Append to the document, click it, and remove it
         document.body.appendChild(link);
