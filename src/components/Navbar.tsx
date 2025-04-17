@@ -22,8 +22,8 @@ const Navbar = () => {
   }, []);
 
   const handleDownloadResume = () => {
-    // LinkedIn resume URL - replace with your actual LinkedIn resume URL
-    const resumeUrl = "https://www.linkedin.com/in/akshaya-selvam/overlay/1635538577488/single-media-viewer/?profileId=ACoAADUGzYMB-RYe3kNlizc1BtJaZGYGmvs5qCM";
+    // Naukri resume URL - replace with your actual Naukri resume URL
+    const resumeUrl = "https://www.naukri.com/mnjuser/profile?id=&altresid";
     
     // Create an anchor element and set properties
     const link = document.createElement('a');
