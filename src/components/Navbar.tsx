@@ -22,7 +22,7 @@ const Navbar = () => {
 
   const handleDownloadResume = () => {
     // Use the direct path to the resume image file
-    const resumeUrl = "/lovable-uploads/32f568c6-8f35-40ab-92c2-98a5369264c0.png";
+    const resumeUrl = "/lovable-uploads/AkshayaSelvam_Resume.pdf";
     
     // Fetch the image file
     fetch(resumeUrl)
