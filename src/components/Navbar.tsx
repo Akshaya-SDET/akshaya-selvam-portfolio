@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -22,19 +21,32 @@ const Navbar = () => {
   }, []);
 
   const handleDownloadResume = () => {
-    // Naukri resume URL - replace with your actual Naukri resume URL
-    const resumeUrl = "https://www.naukri.com/mnjuser/profile?id=&altresid";
+    // Use the direct path to the resume image file
+    const resumeUrl = "/lovable-uploads/32f568c6-8f35-40ab-92c2-98a5369264c0.png";
     
-    // Create an anchor element and set properties
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.target = '_blank';
-    link.download = 'Akshaya_Selvam_Resume.pdf';
-    
-    // Append to the document, click it, and remove it
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Fetch the image file
+    fetch(resumeUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        // Create URL for the blob
+        const url = window.URL.createObjectURL(blob);
+        
+        // Create an anchor element and set properties
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'Akshaya_Selvam_Resume.png';
+        
+        // Append to the document, click it, and remove it
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        // Release the object URL
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(error => {
+        console.error('Error downloading resume:', error);
+      });
   };
 
   return (
